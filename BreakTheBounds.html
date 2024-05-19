@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jonathan Morse - Break The Bounds</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li class="active"><a href="BreakTheBounds.html">Break The Bounds</a></li>
+							<li><a href="Vanquisher.html">Vanquisher</a></li>
+							<li><a href="GoodBadMagic.html">GoodBadMagic</a></li>
+							<li><a href="DeepDive.html">DeepDive</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">September 2023 - March 2024</span>
+									<h1>Break The Bounds</h1>
+									<p>A 3D Puzzle Platformer developed in Unity where you play as Ralph, a mischeivous cat whose main objective is to escape the bounds of the level the narrator has placed them in. Take advantage of some "glitches" in the simulation to break free of the narrator's grasp.</p>
+								</header>
+								<div class="image main"><img src="images/BtB Logo.png" alt="Break The Bounds Logo" /></div>
+								<video autoplay muted loop>
+									<source src="images/BtB_Mechanics.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								  <p></p>
+								  <p>On this project, I was tasked with developing all of the main player mechanics. All three of which revolved around Object Manipulation: Grabbing, Throwing, and "Boosting". Since the majority of levels in this game required the use of these mechanics, it was very important to not only make them work correctly, but also feel good to use. That's why, after every new iteration, it was important to playtest the mechanics and see how individuals separate from the project felt about them. </p>
+								  <p>The way I created it, any model placed in the level could become an object by simply attaching the object script to it. This was done to make it easier for the designers on our team to craft unique levels with whatever models they wanted without needing to worry about whether or not they could be used as objects. Objects could also be tagged as "Heavy", meaning they can't be carried, thrown, or "boosted" with, but can still be dragged around. This added a new type of object for designers to use for puzzles, without having to create a separate object for it. </p>
+								  <p>"Boosting" is an intended mechanic based on the glitch of grabbing an object in an "incorrect" way that causes them to get launched. In our case, we have two forms of "Boosting" Forwards Boosting and Upwards Boosting, when the object the player is attempting to grab is either behind them or below them respectively. This type of mechanic was the basis for the concept of the game. Use mechanics that look like glitches to "break" the simulation and escape the bounds of the level. </p>
+								  <!--
+									<video autoplay muted loop>
+									<source src="images/BtB_DoorTargeting.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								  -->
+								  
+								<p></p>
+								<video autoplay muted loop>
+									<source src="images/BtB_Ragdoll.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								<p></p>
+								<p>Originally, we were going to have the player move around in a manner similar to Human Fall Flat. I developed a system to have the player's animations affected by the physics system, giving him a floppy look. Later on, it was determined through testing that this kind of movement made the platforming elements of the game too difficult and thus, the movement was changed to a more traditional style. However, we were able to keep the physics-based animations, so the look of the player remained the same!</p>
+								<video autoplay muted loop>
+									<source src="images/BtB_Narrator.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								<p></p>
+								<p>Near the end of the project, we discovered that the experience that we, the developers, had while playing the game was different from everybody else's experience because we had built up our own ideas for the story of the game that new player's had not. As such, the final 4 weeks of the project were spent on adding the story ideas we had into the project. One of those ideas was the Narrator, an omniscient presence who is keeping the Player trapped in a simulation of their own design. Although he is an antagonistic force, he only wants to keep Ralph, the cat protagonist, happy.</p>
+								<p>In order to add the narrator, I created a simple Dialogue System that types out messages at a set speed. There are also different types of dialogue triggers to ensure that specific lines of dialogue are only played in context. For example, there are multiple dialogue boxes that only trigger the new line of dialogue if you bring the required object with you.</p>
+								<p>It's a simple system that drastically changed the feel of the game and made it feel like a complete experience.</p>
+								<p></p>
+								<i>Overall, this was a really fun project made by a group of really talented individuals! We had two in-person meetings every week and effectively communicated what we were doing and our progress on those tasks. If anyone ran into any issues, we would come and figure it out together. The only real problems that arose were all logistical issues with our project. We had a difficult time figuring out how to tell the player that these "glitch" mechanics were intentional and not actual glitches. But just like any other issue, we all came together to discuss the best possible course of action and, I believe, crafted a solution that worked out for the best. The effective communication skills employed on this project helped me to learn and grow not only as a programmer, but also as a team member.</i>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Phone</h3>
+							<p>(559) 575-2016</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p>jonathanmorse56@gmail.com</a></p>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
