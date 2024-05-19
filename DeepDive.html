@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jonathan Morse - Deep Dive</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li><a href="BreakTheBounds.html">Break The Bounds</a></li>
+							<li><a href="Vanquisher.html">Vanquisher</a></li>
+							<li><a href="GoodBadMagic.html">GoodBadMagic</a></li>
+							<li class="active"><a href="DeepDive.html">DeepDive</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">January 2020 - April 2020</span>
+									<h1>Deep Dive</h1>
+									<p>A 2D Dungeon Crawler developed in a pre-made custom engine that's set in a mysterious dungeon found deep below the ocean depths. Explore each room of the dungeon, looking for new bullet types and other artifacts to aid you in your quest to reach the bottom. </p>
+								</header>
+								<div class="image main"><img src="images/DD Logo.png" alt="" /></div>
+								<video autoplay muted loop>
+									<source src="images/DD_Inventory.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								<p>On this project, I was responsible for creating a system that managed all of the items in the game. I created an inventory system using a linked list, and created a system that allowed the players to equip items and equipment.</p>
+								
+								<video autoplay muted loop>
+									<source src="images/DD_ItemUse.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								<p>Being responsible for the items, I also implemented the behaviors for said items. Some were simple checks to perform actions, such as the magnet allowing the Player to move metal crates and the hammer allowing the player to smash wooden crates, and some were more standalone. The fishing rod, for example, allows the Player to place a Bait object in the direction of their mouse, and if that Bait is deployed, the enemies would target it instead of the Player.</p>
+								<p>I developed the behaviors for the equipment as well. These were also relatively simple, mainly modifying some Player stats, whereas one slowly heals the Player over time.</p>
+								<video autoplay muted loop>
+									<source src="images/DD_ItemGet.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								  </video>
+								<p>Lastly, I crafted all of the UI elements relating to the items. The inventory, the HUD, and the "Item Get" screens.</p>
+								<i>Overall, for the first game project I've ever made, I feel pretty proud of it. I was able to put the little that I had learned by this point to use and create systems that, though could be improved, still hold up. As a team, we held frequent in-person meetings, mainly just in case we needed to communicate to each other. For the most part, we managed our systems with little overlap. Any problems that arose were mainly due do a lack of experience, both in programming in general as well as working on a team project for the first time. </i>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section>
+							<h3>Phone</h3>
+							<p>(559) 575-2016</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p>jonathanmorse56@gmail.com</a></p>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
